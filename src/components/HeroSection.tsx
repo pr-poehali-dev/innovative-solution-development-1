@@ -55,8 +55,8 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
-                  alt="Креативный специалист"
+                  src="https://cdn.poehali.dev/projects/15a170ae-8ff1-4a9f-aa71-a8e7eb8c33ee/bucket/d196cd60-41b2-4fce-afc6-5a063d0b1016.jpeg"
+                  alt="Житков Святослав Антонович"
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -70,10 +70,10 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Ваше имя
+                  Житков Святослав Антонович
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный специалист | Ваша специализация
+                  Креативный специалист | Дизайнер
                 </p>
                 <div className="flex gap-6 pt-4">
                   <a
