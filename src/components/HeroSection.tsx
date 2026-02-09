@@ -70,10 +70,10 @@ export default function HeroSection() {
             >
               <div className="space-y-4">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
-                  Алексей Иванов
+                  Ваше имя
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
-                  Креативный директор | Дизайнер
+                  Креативный специалист | Ваша специализация
                 </p>
                 <div className="flex gap-6 pt-4">
                   <a
