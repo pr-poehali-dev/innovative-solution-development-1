@@ -68,14 +68,19 @@ export default function HeroSection() {
                 isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
               )}
             >
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
                   Житков Святослав Антонович
                 </p>
                 <p className="text-xl font-light text-white/80 md:text-2xl">
                   Креативный специалист | Дизайнер
                 </p>
-                <div className="flex gap-6 pt-4">
+                <p className="text-base font-light leading-relaxed text-white/70 md:text-lg">
+                  Создаю визуальные решения, которые вдохновляют и работают. 
+                  От концепции до финальной реализации — помогаю брендам выделиться 
+                  и найти свой уникальный визуальный язык.
+                </p>
+                <div className="flex gap-6 pt-2">
                   <a
                     href="https://t.me/"
                     target="_blank"
