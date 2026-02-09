@@ -85,6 +85,66 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Создатели сайта Footer */}
+      <footer className="relative bg-black py-16">
+        <div className="container mx-auto px-8 md:px-16">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-light text-white md:text-4xl mb-2">
+              Создатели сайта
+            </h3>
+            <p className="text-white/50 text-sm">
+              Команда разработки
+            </p>
+          </div>
+
+          <div className="grid gap-12 md:grid-cols-2 max-w-4xl mx-auto">
+            {/* Новиков Святослав */}
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white/20 shadow-xl">
+                <img
+                  src="https://cdn.poehali.dev/projects/15a170ae-8ff1-4a9f-aa71-a8e7eb8c33ee/bucket/4aa31efc-20ae-4fc7-92be-14fee24e0105.jpeg"
+                  alt="Новиков Святослав Андреевич"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="text-center">
+                <p className="text-xl font-light text-white">
+                  Новиков Святослав Андреевич
+                </p>
+                <p className="text-white/50 text-sm mt-1">
+                  Разработчик
+                </p>
+              </div>
+            </div>
+
+            {/* Монилов Игор */}
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white/20 shadow-xl">
+                <img
+                  src="https://cdn.poehali.dev/projects/15a170ae-8ff1-4a9f-aa71-a8e7eb8c33ee/bucket/0736936c-aa17-4855-afbc-76d93add20b9.jpeg"
+                  alt="Монилов Игор Владимирович"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="text-center">
+                <p className="text-xl font-light text-white">
+                  Монилов Игор Владимирович
+                </p>
+                <p className="text-white/50 text-sm mt-1">
+                  Разработчик
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-white/10 text-center">
+            <p className="text-white/30 text-sm">
+              © 2026 Все права защищены
+            </p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 };
